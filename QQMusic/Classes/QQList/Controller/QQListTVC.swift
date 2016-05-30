@@ -2,8 +2,8 @@
 //  QQListTVC.swift
 //  QQMusic
 //
-//  Created by xiaomage on 16/5/16.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by 张战威 on 16/5/16.
+//  Copyright © 2016年 张战威. All rights reserved.
 //
 
 import UIKit

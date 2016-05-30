@@ -2,8 +2,8 @@
 //  QQMusicMessageModel.swift
 //  QQMusic
 //
-//  Created by xiaomage on 16/5/16.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by 张战威 on 16/5/16.
+//  Copyright © 2016年 张战威. All rights reserved.
 //  提供播放详情界面展示的详细信息
 
 import UIKit

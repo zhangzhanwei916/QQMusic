@@ -2,8 +2,8 @@
 //  QQDetailVC.swift
 //  QQMusic
 //
-//  Created by xiaomage on 16/5/16.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by 张战威 on 16/5/16.
+//  Copyright © 2016年 张战威. All rights reserved.
 //  详情控制器, 负责歌曲信息的展示, 播放的业务逻辑(上一首, 下一首, 播放, 暂停等等), 歌词的展示
 
 import UIKit
