@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="musicList" rowHeight="60" id="KGk-i7-Jjw" customClass="QQMusicListCell" customModule="QQMusic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jay.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rcS-E7-GgE">
+                        <rect key="frame" x="10" y="10" width="40" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="skM-c4-gLl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8J-Jg-YWV">
+                        <rect key="frame" x="65" y="10" width="38" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLg-vG-g9T">
+                        <rect key="frame" x="65" y="33" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nLg-vG-g9T" firstAttribute="bottom" secondItem="rcS-E7-GgE" secondAttribute="bottom" id="1tm-nm-xc2"/>
+                    <constraint firstItem="N8J-Jg-YWV" firstAttribute="top" secondItem="rcS-E7-GgE" secondAttribute="top" id="6gO-7u-BCi"/>
+                    <constraint firstAttribute="bottom" secondItem="rcS-E7-GgE" secondAttribute="bottom" constant="10" id="7xr-6T-IPh"/>
+                    <constraint firstItem="rcS-E7-GgE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="JPX-g6-Lit"/>
+                    <constraint firstItem="N8J-Jg-YWV" firstAttribute="leading" secondItem="rcS-E7-GgE" secondAttribute="trailing" constant="15" id="OhU-6n-vP6"/>
+                    <constraint firstItem="rcS-E7-GgE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Wb2-e0-Edm"/>
+                    <constraint firstItem="nLg-vG-g9T" firstAttribute="leading" secondItem="N8J-Jg-YWV" secondAttribute="leading" id="o3W-a3-0WN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="iconImageView" destination="rcS-E7-GgE" id="pb2-Qy-a9I"/>
+                <outlet property="singerNameLabel" destination="nLg-vG-g9T" id="WsQ-SG-qqN"/>
+                <outlet property="songNameLabel" destination="N8J-Jg-YWV" id="tGv-Vc-wrN"/>
+            </connections>
+            <point key="canvasLocation" x="315" y="316"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="jay.jpg" width="350" height="350"/>
+    </resources>
+</document>

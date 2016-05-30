@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="M8V-o3-q0f">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="WXz-aQ-Zz5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M8V-o3-q0f" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c2x-w5-aKD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tDS-qe-SQn" kind="relationship" relationship="rootViewController" id="s3u-z9-lPm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3LU-xy-8WT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="352" y="371"/>
+        </scene>
+        <!--QQDetailVC-->
+        <scene sceneID="FU8-9Y-NOb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QQDetailVC" id="5tQ-GB-Ebx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x84-6N-oBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2005" y="391"/>
+        </scene>
+        <!--QQListTVC-->
+        <scene sceneID="GhV-rN-ncN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QQListTVC" id="tDS-qe-SQn" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vyA-35-WhH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZaJ-uM-w1K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954.5" y="371"/>
+        </scene>
+    </scenes>
+</document>
