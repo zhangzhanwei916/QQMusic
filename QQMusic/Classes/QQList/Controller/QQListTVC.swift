@@ -38,10 +38,6 @@ class QQListTVC: UITableViewController {
             
         }
     }
-
-   
-    
-
     
 }
 
@@ -118,13 +114,8 @@ extension QQListTVC {
             cell?.x = CGFloat(abs(indexPath.row - middle) * 20)
             
         }
-        
-        
-        
-        
+      
     }
-    
-    
 }
 
 // 界面搭建

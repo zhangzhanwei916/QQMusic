@@ -40,13 +40,8 @@ class QQMusicModel: NSObject {
     }
     
     // 为了防止外界传递一个未定义的key, 造成崩溃, 我们需要空实现这个方法
-    
     override func setValue(value: AnyObject?, forUndefinedKey key: String) {
         
     }
-    
-    
-    
-    
-    
+
 }

@@ -168,14 +168,9 @@ extension QQDetailVC {
         let currentTime = Double(sender.value) * totalTime
         
         costTimeLabel.text = QQTimeTool.getFormatTime(currentTime)
-        
-        
-        
-        
+      
     }
-    
-    
-    
+   
 }
 
 
@@ -220,8 +215,7 @@ extension QQDetailVC {
         }else {
             pauseRotationAnimation()
         }
-        
-       
+      
     }
     
     // 1 秒
@@ -294,8 +288,6 @@ extension QQDetailVC {
         displayLink?.invalidate()
         displayLink = nil
     }
-
-    
     
 }
 
@@ -364,8 +356,6 @@ extension QQDetailVC {
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
     }
-    
-    
     
 }
 

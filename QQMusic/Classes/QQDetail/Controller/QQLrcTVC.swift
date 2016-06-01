@@ -47,8 +47,7 @@ class QQLrcTVC: UITableViewController {
                 
                
             }
-            
-           
+          
         }
     }
     
@@ -104,7 +103,5 @@ class QQLrcTVC: UITableViewController {
         
         return cell
     }
-  
-
-    
+   
 }

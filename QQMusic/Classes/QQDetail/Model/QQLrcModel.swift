@@ -14,5 +14,4 @@ class QQLrcModel: NSObject {
     var endTime: NSTimeInterval = 0
     var lrcStr: String = ""
     
-    
 }
